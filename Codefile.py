@@ -3,7 +3,7 @@ def fibonacci(n):
     a = 0
     b= 1
     series_list = [a, b]
-    while len(series_list) <= n
+    while len(series_list) <= n:
           i = a+b
           series_list.append(i)
           a = b
